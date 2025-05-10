@@ -8,7 +8,6 @@ WORKDIR /app
 COPY requirements.txt .
 COPY app_project.py .
 COPY cargar_datos.py .
-COPY dataset_final.csv .
 
 
 # Instalar dependencias
