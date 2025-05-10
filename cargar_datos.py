@@ -14,7 +14,7 @@ print(df.head())
 #base_datos = "dataviz_db"
 
 # Crear conexión
-engine = create_engine("postgresql+psycopg2://postgres:eliana20062004@db:5432/dataviz_db")
+engine = create_engine("postgresql://dataviz_db_user:RKGos4vhuLLTFGuikahmmS5Z2VXCmoBv@dpg-d0fm94q4d50c73f29660-a.oregon-postgres.render.com/dataviz_db")
 
 # Insertar los datos
 df.to_sql("fraude", engine, if_exists="replace", index=False)
